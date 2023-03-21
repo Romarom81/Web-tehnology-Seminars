@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+}
+.page1 {
+    max-width: 800px;
+	margin: 50px;
+}
+h1 {
+    color: black;
+    margin-left: 450px;
+}
+p {
+    text-size-adjust: 19px;
+}
+.Big_pic {
+    width: 1000px;
+}
+img {
+    margin-left: 50px;
+    width: 800px;
+}
+a {
+    color: brown;
+}
