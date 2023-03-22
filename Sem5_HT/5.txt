@@ -1,0 +1,44 @@
+Задание 1. XML. Неверно
+
+<user>
+<name>"Иван"</name>
+<surname>"Иванов"</surname>
+<patronymic>"Иванович"</patronymic>
+<age>"30"</age>
+<phone>"Москва"</phone>
+<birthplace>"+7 926 766 48 48"</birthplace>
+</user
+===============================
+Верное:
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<user>
+	<name>Иван</name>
+	<surname>Иванов</surname>
+	<patronymic>Иванович</patronymic>
+	<age>30</age>
+	<phone>Москва</phone>
+	<birthplace>+7 926 766 48 48</birthplace>
+</user>
+
+Задание 2. Json Неверно
+
+name: "Иван",
+surname: "Иванов",
+patronymic: "Иванович",
+age: "30",
+birthplace: "Москва",
+phone: +7 926 766 48 48,
+
+======================
+
+Верное:
+
+{
+  "name": "Иван",
+  "surname": "Иванов",
+  "patronymic": "Иванович",
+  "age": 30,
+  "birthplace": "Москва",
+  "phone": "+7 926766 48 48"
+}
